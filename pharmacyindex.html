@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pharmacy</title>
+    <link rel="stylesheet" href="pharmacystyle.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Online Pharmacy</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Available Medications</h2>
+        <div class="product" id="med1">
+            <h3>Ibuprofen</h3>
+            <p>Price: $10</p>
+            <button onclick="addToCart('Ibuprofen', 10)">Add to Cart</button>
+        </div>
+        <div class="product" id="med2">
+            <h3>Paracetamol</h3>
+            <p>Price: $8</p>
+            <button onclick="addToCart('Paracetamol', 8)">Add to Cart</button>
+        </div>
+        <div class="product" id="med3">
+            <h3>Aspirin</h3>
+            <p>Price: $12</p>
+            <button onclick="addToCart('Aspirin', 12)">Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-list">
+            <!-- Cart items will be displayed here -->
+        </ul>
+        <p>Total: $<span id="total-price">0</span></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Online Pharmacy</p>
+    </footer>
+
+    <script src="pharmacyscript.js"></script>
+</body>
+</html>
