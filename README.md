@@ -17,7 +17,7 @@ This project is a passwordless authentication platform for an online pharmacy. I
 - Nodemailer (version 6 or higher)
 
 **Installation**
-1. Clone the repository using git clone https://github.com/your-username/online-pharmacy-passwordless-authentication-platform.git
+1. Clone the repository using github
 2. Install the required dependencies using npm install
 3. Create a MongoDB database and add the connection string to the app.js file
 4. Start the server using node app.js
